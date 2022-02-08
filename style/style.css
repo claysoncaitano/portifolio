@@ -53,6 +53,9 @@ header>p{
 nav{
     padding: 10px 0px;
     background-color: var(--cor1);
+    box-shadow: 0px 3px 5px black;
+    position: relative;
+    z-index: 1;
 }
 
 nav>a{
@@ -77,6 +80,8 @@ main{
     padding-bottom: 30px;
     margin-bottom: 100px;
     border-radius: 0px 0px 10px 10px;
+    position: relative;
+    z-index: 0;
 }
 
 main>h1{
@@ -109,6 +114,31 @@ main>ul>li>a{
 main>ul>li>a:hover{
     font-weight: bold;
     color: var(--cor2);
+}
+
+main#form h3{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+main#form li{
+    padding-left: 50px;
+    padding-bottom: 5px;
+}
+
+main#exp h3{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+main#exp h4{
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+main#exp li{
+    padding-left: 50px;
+    padding-bottom: 5px;
 }
 
 footer{
