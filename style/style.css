@@ -141,6 +141,32 @@ main#exp li{
     padding-bottom: 5px;
 }
 
+main#port h2{
+    padding-left: 25px;
+}
+
+main#port h3{
+    padding-left: 25px;
+    font-size: 1.6em;
+}
+
+main#port h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+main#port p{
+    font-size: 1em;
+    padding-top: 30px;
+}
+
+main#port picture, main#port img{
+    display: block;
+    margin: auto;
+}
+
 footer{
     background-color: #011826;
     position: absolute;
